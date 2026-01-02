@@ -1,8 +1,5 @@
-# Intune Packager Utility (Binary Release)
-
-Version: 1.0.0  
-Publisher: Jatinder Singh Aujla  
-License: MIT (see `LICENSE`)
+# Intune Packager Utility
+Publisher: Jatinder Singh Aujla
 
 ## What this utility does
 Intune Packager Utility wraps your `.msi` and `.exe` installers into `.intunewin` packages for Microsoft Intune (Win32 Content Prep Tool). It auto-detects metadata, supports parallel conversion, and gives clear per-item status, durations, exit codes, signing info, and full logs.
@@ -27,16 +24,18 @@ Intune Packager Utility wraps your `.msi` and `.exe` installers into `.intunewin
 6) Watch progress: status, exit code, duration, signer, and logs. Cancel if needed.
 
 ## Included in this ZIP
-- `intune-pkg-utility.exe` (built with Wails)
+- `intunewin-packager.exe`
 - `LICENSE` (MIT)
-- `RELEASE_README.md` (this file)
+- `README.md`
 
 ## Releases
-- Latest: **v1.0.0** — download the ZIP from the GitHub Releases page of the binaries repo.  
-  (Example: `https://github.com/<youruser>/intune-packager-utility-binaries/releases/tag/v1.0.0`)
+- All versions: [All releases](https://github.com/jatinderaujla/intunewin-packager/releases) (each tag has release notes and a ZIP).
+
+- Latest: **v1.0.0** — [Release notes](https://github.com/jatinderaujla/intunewin-packager/releases/tag/v1.0.0)  Download: [intunewin-packager-v1.0.0.zip](https://github.com/jatinderaujla/intunewin-packager/releases/download/v1.0.0/intunewin-packager-v1.0.0.zip)
+
 - Future versions will be listed in Releases with their ZIP assets; the repository itself stays source-free.
 
 ## Support & notes
 - Run scans on Windows to ensure MSI/Authenticode metadata is available.
 - If anything looks off, re-run the app and rescan; ensure `IntuneWinAppUtil.exe` is present.
-- Repository for releases (binary-only): https://github.com/jatinderaujla/intune-packager-utility
+- Repository for releases (binary-only): https://github.com/jatinderaujla/intunewin-packager
