@@ -1,5 +1,4 @@
-# Intune Packager Utility
-Publisher: Jatinder Singh Aujla
+# Intunewin Packager
 
 ## What this utility does
 Intune Packager Utility wraps your `.msi` and `.exe` installers into `.intunewin` packages for Microsoft Intune (Win32 Content Prep Tool). It auto-detects metadata, supports parallel conversion, and gives clear per-item status, durations, exit codes, signing info, and full logs.
